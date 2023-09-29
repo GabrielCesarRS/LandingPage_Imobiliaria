@@ -1,0 +1,244 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Gabriel Cesar @gabbsgod">
+        <meta name="keywords" content="web developer, html5, css, javascript, open to work, freelancer">
+        <meta name="description" content="Front-end de verdade">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="semJava">
+        <header class="siteheader">
+            <div class="logo">
+                <img src="imagens/logo.png">
+            </div>
+
+                <ul class="contatos">
+                    <li><i class="fa-brands fa-whatsapp">(32) 99196-8888</i></li>
+                    <br>
+                <li><i class="fa-solid fa-phone">(32) 3232-3232</i></li>
+                </ul>
+                
+        </header>
+        <nav class="main-menu">
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Ver Portifólio <i class="fa-solid fa-angle-down"></i></a>
+                    <ul class="menu-exibir">
+                        <li>Casas Decoradas</li>
+                        <li>Plantas</li>
+                        <li>Negocie seu Imóvel</li>
+                    </ul>
+                    </li>
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <ul>
+            </div>
+        </nav>
+        <div class="homepic">
+            <section class="menu-slider">
+                <div class="imagens-slide">
+            <img src="imagens/U_C_DETALHE_DAS_ABAS_EF_web-1024x576.jpg">
+            <img src="imagens/1.png">
+            <img src="imagens/2.webp">
+            <br>
+            <span class="prev"><i class="fa-solid fa-caret-left"></i></span>
+            <span class="next"><i class="fa-solid fa-caret-right"></i></span>
+        </div>
+        </section>
+        </div>
+
+        <div>
+            <section class="filtros">
+                <label class="caixa-filtro">
+                    <div>
+                <select name="tipo" class="tipo">
+                    <option value="Casa">Casa</option>
+                    <option value="Apartamento">Apartamento</option>
+                    <option value="Loja">Loja</option>
+                </select>
+            </div>
+            <div>
+                <select name="bairros" class="bairros">
+                    <option value="Casa">Centro</option>
+                    <option value="Casa">São Pedro</option>
+                    <option value="Casa">Benfica</option>
+                    <option value="Casa">Santa Cruz</option>
+                    <option value="Casa">Santos Dummont</option>
+                    <option value="Casa">Bom Pastor</option>
+                    <option value="Casa">Santa Luzia</option>
+                    <option value="Casa">Bandeirantes</option>
+                </select>
+            </div>
+            <div>
+                <input type="text" placeholder="Preço Min.">
+            </div>
+            <div>
+                <input type="text" placeholder="Preço Máx.">
+            </div>
+            <div>
+                <select name="quartos" class="quartos">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4+">4 ou mais</option>
+                </select>
+            </div>
+                <div>
+                <select name="mobiliado" class="mobiliado">
+                    <option value="não-mobiliado">Não Mobiliado</option>
+                    <option value="mobiliado">Mobiliado</option>
+                </select>
+            </div>
+                <div>
+                <select name="garagem" class="garagem">
+                    <option value="sem-garagem">Sem Garagem</option>
+                    <option value="1">1 vaga</option>
+                    <option value="2">2 vagas</option>
+                    <option value="3">3 vagas</option>
+                    <option value="4">4 vagas</option>
+                </select>
+            </div>
+                <div>
+                <a href="#"><input class="pesquisafiltro" value="Pesquisar" type="submit" class="enviar"></a>
+            </div>
+                </label>
+            </section>
+        </div>
+        <!--apartamentos-->
+        <div>
+            <section class="apartamentos-agora">
+                <div class="apt-apresentacao">APARTAMENTOS</div>
+                <div class="cards-conjunto">
+                <div class="cards"> <img src="imagens/apts/2.jpg" alt="opção 2">
+                    <span class="preco">R$ 850 <i class="fa-solid fa-tags"></i></span>
+                    <span class="modo">ALUGUEL</span>
+                    <div class="barra-info">
+                        <i class="fa-solid fa-bed"> 2 quartos</i>
+                        <i class="fa-solid fa-car"> Garagem</i>
+                        <i class="fa-brands fa-pagelines"> Jardim</i>
+                    </div>
+                    <h3>São Matheus - Rio Branco</h3>
+                </div>
+                <div class="cards"> <img src="imagens/apts/3.jpg" alt="opção 3">
+                    <span class="preco">R$ 375.000 <i class="fa-solid fa-tags"></i></span>
+                    <span class="modo">VENDE-SE</span>
+                    <div class="barra-info">
+                        <i class="fa-solid fa-bed"> 3 quartos</i>
+                        <i class="fa-solid fa-car"> Garagem</i>
+                        <i class="fa-brands fa-pagelines"> Jardim</i>
+                    </div>
+                    <h3>Praça do Bom Pastor</h3>
+                </div>
+                <div class="cards"> <img src="imagens/apts/4.webp" alt="opção 4">
+                    <span class="preco">R$ 245.000 <i class="fa-solid fa-tags"></i>  </span>
+                    <span class="modo">VENDE-SE</span>
+                    <div class="barra-info">
+                        <i class="fa-solid fa-bed"> 2 quartos</i>
+                        <i class="fa-solid fa-car"> Garagem</i>
+                    </div>
+                    <h3>Reserva Benfica</h3>
+                </div>
+            </div>
+            </section>
+            <!--casas-->
+            <section class="apartamentos-agora">
+                <div class="casa-apresentacao">CASAS</div>
+                <div class="cards-conjunto">
+                <div class="cards"> <img src="imagens/apts/2.1.jpg" alt="opção 2">
+                    <span class="preco">R$ 160.000 <i class="fa-solid fa-tags"></i></span>
+                    <span class="modo">VENDE-SE</span>
+                    <div class="barra-info">
+                        <i class="fa-solid fa-bed"> 2 quartos</i>
+                        <i class="fa-solid fa-car"> Garagem</i>
+                        <i class="fa-brands fa-pagelines"> Jardim</i>
+                    </div>
+                    <h3>Bom Jardim</h3>
+                </div>
+                <div class="cards"> <img src="imagens/apts/2.2.jpeg" alt="opção 3">
+                    <span class="preco">R$ 120.000  <i class="fa-solid fa-tags"></i></span>
+                    <span class="modo">VENDE-SE</span>
+                    <div class="barra-info">
+                        <i class="fa-solid fa-bed"> 2 quartos</i>
+                        <i class="fa-solid fa-car"> Garagem</i>
+                        <i class="fa-brands fa-pagelines"> Jardim</i>
+                    </div>
+                    <h3>Grama</h3>
+                </div>
+                <div class="cards"> <img src="imagens/apts/2.3.jpg" alt="opção 4">
+                    <span class="preco">R$ 245.000 <i class="fa-solid fa-tags"></i>  </span>
+                    <span class="modo">VENDE-SE</span>
+                    <div class="barra-info">
+                        <i class="fa-solid fa-bed"> 2 quartos</i>
+                        <i class="fa-solid fa-car"> Garagem</i>
+                        <i class="fa-brands fa-pagelines"> Jardim</i>
+                    </div>
+                    <h3>Vale dos Bandeirantes</h3>
+                </div>
+            </div>
+            </section>
+            <!--lojas-->
+            <section class="apartamentos-agora">
+                <div class="lojas-apresentacao">LOJAS</div>
+                <div class="cards-conjunto">
+                <div class="cards"> <img src="imagens/apts/3.1.jpg" alt="opção 2">
+                    <span class="preco">R$ 4.300 <i class="fa-solid fa-tags"></i></span>
+                    <span class="modo">ALUGUEL</span>
+                    <div class="barra-info">
+                        <i class="fa-solid fa-briefcase"> 2 OFFICES</i>
+                        <i class="fa-solid fa-car"> Estacionamento</i>
+                    </div>
+                    <h3>Comércio no Linhares</h3>
+                </div>
+                <div class="cards"> <img src="imagens/apts/3.2.jpg" alt="opção 3">
+                    <span class="preco">4.000 <i class="fa-solid fa-tags"></i></span>
+                    <span class="modo">ALUGUEL</span>
+                    <div class="barra-info">
+                        <i class="fa-solid fa-briefcase"> 1 OFFICE</i>
+                        <i class="fa-solid fa-car"> 6 vagas</i>
+                    </div>
+                    <h3>Mecânica Santos Dummont</h3>
+                </div>
+                <div class="cards"> <img src="imagens/apts/3.3.jpeg" alt="opção 4">
+                    <span class="preco">R$ 2.500 <i class="fa-solid fa-tags"></i>  </span>
+                    <span class="modo">ALUGUEL</span>
+                    <div class="barra-info">
+                        <i class="fa-solid fa-briefcase"> 2 OFFICES</i>
+                        <i class="fa-solid fa-car"> Estacionamento</i>
+                    </div>
+                    <h3>Loja no Borboleta</h3>
+                </div>
+            </div>
+            </section>
+        </div>
+        
+        <div class="email">
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+            <h2>Deseja saber das novidades?</h2>
+            <input type="text" placeholder="Seu email"><input type="submit" value="INSCREVER">
+            </div>
+            </div>
+            <footer>
+                <ul class="icones">
+                    <li><i class="fa-regular fa-envelope"></i></li>
+                <li><i class="fa-brands fa-facebook"></i></li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-linkedin"></i></li>
+                </ul>
+                <div class="finais">
+                    <br>
+                    © Todos os Direitos Reservados
+
+                </div>
+
+
+            </footer>
+    <script src="https://kit.fontawesome.com/a49c79467f.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    </body>
+</html>
